@@ -7,14 +7,16 @@ body{
 h1{
     font-size: 50px;
 }
-
+h2{
+    font-size: 35px;
+}
 .orange-color{
     color:orange;
 }
 
-section{
+.flexible{
     display: flex;
-    margin-bottom: 150px;;
+    margin-bottom: 150px;
 }
 
 .top-banner{
@@ -32,7 +34,12 @@ section .half-width{
     padding-left: 5%;
     width: 50%;
 }
-
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 10px;
+}
 .half-width a{
     text-decoration: none;
     background-image: linear-gradient(tomato, rgb(240, 94, 94));
@@ -54,4 +61,24 @@ section .half-width{
 }
 .dirim{
     margin-right: 130px;
+}
+.items{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 13px;
+}
+#mama{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, rgb(240, 94, 94));
+    border-image-slice: 1;
+}
+#chacha{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(3, 80, 245), rgb(27, 218, 243));
+    border-image-slice: 1;   
+}
+footer p{
+    text-align: center;
 }
